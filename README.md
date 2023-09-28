@@ -25,15 +25,7 @@ Build and start the Docker containers using Docker Compose:
 docker-compose up --build
 ```
 
-### 4. Apply migrations
-
-Apply the database migrations to set up the initial database schema:
-
-```bash
-docker-compose exec app python manage.py migrate
-```
-
-### 5. Create a Superuser (Optional)
+### 4. Create a Superuser (Optional)
 
 If you want to create an admin superuser for the Django admin panel, you can do
 so using the following command:
@@ -42,7 +34,7 @@ so using the following command:
 docker-compose exec app python manage.py createsuperuser
 ```
 
-### 6. Apply fixtures
+### 5. Apply fixtures
 
 ```bash
 docker-compose exec app sh -c "poetry install --only dev && python manage.py generate_initial_data_for_test"
