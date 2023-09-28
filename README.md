@@ -7,7 +7,7 @@
 Clone the project repository from GitHub:
 
 ```bash
-git clone https://github.com/yourusername/project-name.git
+git clone https://github.com/noors312/larixon_tst.git
 cd larixon_tst
 ```
 
