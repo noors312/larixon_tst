@@ -1,0 +1,40 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore environment-specific settings
+*.env
+
+# Ignore database files
+db.sqlite3
+*.db
+
+# Ignore IDE/Editor-specific files and directories
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+*.swo
+*.swn
+*.subl
+
+# Ignore logs and media files (customize this if needed)
+logs/
+media/
+
+# Ignore Python virtual environment
+venv/
+.env
+
+# Ignore compiled Python files
+*.pyo
+*.pyd
+
+# Ignore coverage report files
+htmlcov/
+.coverage
+.coverage.*
+
+# Ignore system-specific temporary files
+.DS_Store
+Thumbs.db

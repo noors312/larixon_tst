@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "larixon-tst"
+version = "0.1.0"
+description = ""
+authors = ["Nursultan Ergeshov <nursultan.ergeshov@muehlemann-popp.ch>"]
+readme = "README.md"
+packages = [{include = "larixon_tst"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^4.2.5"
+djangorestframework = "^3.14.0"
+django-filter = "^23.3"
+django-environ = "^0.11.2"
+psycopg2-binary = "^2.9.7"
+gunicorn = "^21.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+factory-boy = "^3.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
